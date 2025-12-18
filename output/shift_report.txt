@@ -1,0 +1,7 @@
+SOC Shift Summary Report
+========================
+
+Benign: 2
+Monitor: 1
+Escalate: 1
+Incident: 1

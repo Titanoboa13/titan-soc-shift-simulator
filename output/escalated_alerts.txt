@@ -1,0 +1,6 @@
+ALRT-003 - Escalate
+High-risk behavior detected. Escalation to Tier-2 required for deeper investigation.
+
+ALRT-004 - Incident
+Confirmed malicious behavior detected. Immediate incident response actions required.
+

